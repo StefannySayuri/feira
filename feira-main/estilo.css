@@ -107,6 +107,7 @@
   /* ======== POSIÇÕES RELATIVAS ======== */
   .fem { top: 80.5%; left: 53%; text-align: center;}
   .masc { top: 80.5%; left: 40.7%; text-align: center;}
+  .elevador {top: 17.5%; left: 6.6%;}
   .escadas { top: 63%; left: 46.7%; }
   .sala1 { top: 59%; left: 22.4%; }
   .sala2 { top: 59%; left: 27%; }
