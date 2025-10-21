@@ -111,12 +111,12 @@
   .escadas { top: 63%; left: 46.7%; }
   .sala1 { top: 59%; left: 22.4%; }
   .sala2 { top: 59%; left: 31.2%; }
-  .sala3 { top: 59%; left: 56.9%; }
-  .sala4 { top: 59%; left: 63%; }
-  .sala5 { top: 59%; left: 70.1%; }
-  .sala6 { top: 68%; left: 70%; }
-  .sala7 { top: 68%; left: 29%; }
-  .sala8 { top: 68%; left: 56%; }
+  .sala3 { top: 59%; left: 63.4%; }
+  .sala4 { top: 59%; left: 72.5%; }
+  .sala5 { top: 59%; left: 83.1%; }
+  .sala6 { top: 18.5%; left: 89.5%; }
+  .sala7 { top: 18.5%; left: 79%; }
+  .sala8 { top: 18.5%; left: 67.5%; }
   
   /* ======== RESPONSIVIDADE ======== */
   @media (max-width: 768px) {
