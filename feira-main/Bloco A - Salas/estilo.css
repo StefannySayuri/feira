@@ -105,18 +105,18 @@
   }
   
   /* ======== POSIÇÕES RELATIVAS ======== */
-  .fem { top: 80.5%; left: 53%; text-align: center;}
-  .masc { top: 80.5%; left: 40.7%; text-align: center;}
-  .elevador {top: 17.5%; left: 6.6%;}
-  .escadas { top: 63%; left: 46.7%; }
-  .sala1 { top: 59%; left: 22.4%; }
-  .sala2 { top: 59%; left: 31.2%; }
-  .sala3 { top: 59%; left: 63.4%; }
-  .sala4 { top: 59%; left: 72.5%; }
-  .sala5 { top: 59%; left: 83.1%; }
-  .sala6 { top: 18.5%; left: 89.5%; }
-  .sala7 { top: 18.5%; left: 79%; }
-  .sala8 { top: 18.5%; left: 67.5%; }
+  .fem { top: 85.5%; left: 53.5%; text-align: center;}
+  .masc { top: 85.5%; left: 40.7%; text-align: center;}
+  .elevador {top: 18.5%; left: 7%;}
+  .escadas { top: 67%; left: 47.2%; }
+  .sala1 { top: 63%; left: 22.7%; }
+  .sala2 { top: 63%; left: 31.6%; }
+  .sala3 { top: 63%; left: 63.7%; }
+  .sala4 { top: 63%; left: 75.3%; }
+  .sala5 { top: 63%; left: 86.1%; }
+  .sala6 { top: 20%; left: 89.5%; }
+  .sala7 { top: 20%; left: 78.5%; }
+  .sala8 { top: 20%; left: 66%; }
   
   /* ======== RESPONSIVIDADE ======== */
   @media (max-width: 768px) {
