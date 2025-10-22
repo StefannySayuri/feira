@@ -109,6 +109,7 @@
   .masc { top: 76.5%; left: 68.5%; text-align: center;}
   .elevador {top: 76.5%; left: 27.5%;}
   .escadas { top: 73%; left: 45.2%; }
+  .quadra {top: 46.5%; left: 90%; transform: rotate(90deg);}
   .sala1 { top: 25%; left: 82.6%; }
   .sala2 { top: 25%; left: 64.3%; }
   .sala3 { top: 25%; left: 48%; }
