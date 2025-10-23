@@ -105,22 +105,22 @@ main {
 }
 
 /* ======== POSIÇÕES RELATIVAS ======== */
-.maker { top: 18.5%; left: 30%; }
-.mtec { top: 77%; left: 81%; }
-.mtec2 { top: 77%; left: 72%; }
-.fem { top: 45%; left: 45.2%; text-align: center; }
-.masc { top: 45%; left: 36%; text-align: center; }
-.tcc { top: 29.5%; left: 2%;}
-.elevador1 { top: 44%; left: 17.5%; }
-.elevador2 { top: 50%; left: 2.3%; transform: rotate(-90deg); }
-.escada1 { top: 78%; left: 46%; }
-.escada2 { top: 43.5%; left: 26%; }
-.instrumental { top: 78.5%; left: 12.7%; text-align: center;}
-.mbiol { top: 52.5%; left: 26.3%; text-align: center;}
-.lab1 { top: 70%; left: 88%;}
-.lab2 { top: 55%; left: 75%; }
-.lab3 { top: 55%; left: 85%;}
-.lab4 { top: 55%; left: 85%; }
+.maker { top: 18.2%; left: 49%; }
+.mtec { top: 18.5%; left: 17.5%; }
+.mtec2 { top: 30%; left: 5.1%; transform: rotate(-90deg);}
+.fem { top: 44%; left: 48%; text-align: center; }
+.masc { top: 44%; left: 40.5%; text-align: center; }
+.tcc { top: 18.2%; left: 28.5%;}
+.elevador1 { top: 44.4%; left: 18.5%; }
+.elevador2 { top: 50%; left: 3.2%; transform: rotate(-90deg); }
+.escada1 { top: 80.5%; left: 50.5%; }
+.escada2 { top: 42.8%; left: 28%; }
+.instrumental { top: 55%; left: 75%;}
+.mbiol { top: 61.5%; left: 90%; text-align: center; transform: rotate(90deg);}
+.lab1 { top: 54.5%; left: 26%;}
+.lab2 { top: 54.7%; left: 44%; }
+.lab3 { top: 54.8%; left: 60.5%;}
+.lab4 { top: 18.3%; left: 40%; }
 
 /* ======== RESPONSIVIDADE ======== */
 @media (max-width: 768px) {

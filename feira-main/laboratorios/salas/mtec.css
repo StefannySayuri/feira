@@ -1,22 +1,22 @@
 @font-face {
-    font-family: 'ArchivoBlack';
-    src: url('../fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  font-family: 'ArchivoBlack';
+  src: url('../fonts/ArchivoBlack-Regular.ttf') format('truetype');
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'ArchivoBlack';
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'ArchivoBlack';
+  box-sizing: border-box;
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
-    background-color: #00486C;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #00486C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* ======== LINKS (BOTÕES) ======== */
@@ -29,27 +29,17 @@ a {
   color: white;
   background-color: #0097E4;
   border-radius: 10px;
-  font-size: clamp(14px, 2vw, 24px);
-  padding: 1em 2em;
-  min-width: 80px;
-  min-height: 50px;
+  font-size: clamp(10px, 1.5vw, 18px); /* fonte original mantida */
+  padding: 0.2em 0.4em; /* botões menores */
+  min-width: 30px; /* largura mínima menor */
+  min-height: 18px; /* altura mínima menor */
   transition: 0.3s;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 a:hover {
   background-color: #0087CC;
   cursor: pointer;
-}
-
-@media (min-width: 1024px) {
-  a {
-    font-size: 22px;
-    padding: 1.2em 2.4em;
-    min-width: 120px;
-    min-height: 65px;
-  }
 }
 
 .cor-alt {
@@ -94,7 +84,7 @@ main {
 }
 
 .container {
-  position: relative; /* necessário para posicionar os botões */
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,50 +105,45 @@ main {
 }
 
 /* ======== POSIÇÕES RELATIVAS ======== */
-.proj1 { top: 35%; left: 8%; transform: rotate(-90deg);}
-.proj2 { top: 65%; left: 8%; transform: rotate(-90deg);}
-.proj3 { top: 80%; left: 40%; }
-.proj4 { top: 80%; left: 65%; }
-.proj5 { top: 65%; left: 78%; transform: rotate(90deg);}
-.proj6 { top: 35%; left: 78%; transform: rotate(90deg);}
-.proj7 { top: 18.5%; left: 65%; }
-.proj8 { top: 18.5%; left: 40%; }
+.proj1 { top: 30%; left: 79%; text-align: center;}
+.proj2 { top: 30%; left: 72%; text-align: center;}
+.proj3 { top: 30%; left: 65%; text-align: center;}
+.proj4 { top: 30%; left: 58%; text-align: center;}
+.proj5 { top: 50%; left: 79%; text-align: center;}
+.proj6 { top: 50%; left: 72%; text-align: center;}
+.proj7 { top: 50%; left: 65%; text-align: center;}
+.proj8 { top: 50%; left: 58%; text-align: center;}
+.proje1 { top: 30%; left: 38%; text-align: center;}
+.proje2 { top: 30%; left: 31%; text-align: center;}
+.proje3 { top: 30%; left: 24%; text-align: center;}
+.proje4 { top: 30%; left: 17%; text-align: center; }
+.proje5 { top: 50%; left:38%; text-align: center;}
+.proje6 { top: 50%; left:31%; text-align: center;}
+.proje7 { top: 50%; left:24%; text-align: center;}
+.proje8 { top: 50%; left:17%; text-align: center;}
 
 /* ======== RESPONSIVIDADE ======== */
 @media (max-width: 768px) {
   a {
-    font-size: clamp(14px, 3vw, 20px); /* Aumenta a fonte */
-    padding: 1em 2em;                  /* Mais espaço interno */
-    min-width: 60px;                   /* Largura mínima maior */
-    min-height: 40px;                  /* Altura mínima maior */
+    font-size: clamp(10px, 2vw, 14px);
+    padding: 0.15em 0.3em; /* botões menores em telas médias */
   }
 
   .container {
     width: 95%;
-    padding: 20px;
-  }
-
-  .salaA {
-    width: 100%;
-    height: auto;
+    padding: 15px;
   }
 }
 
 @media (max-width: 480px) {
   a {
-    font-size: clamp(16px, 4vw, 22px); /* Fonte ainda maior no mobile */
-    padding: 1.2em 2.2em;              /* Mais espaço interno */
-    min-width: 70px;                   /* Botões mais largos */
-    min-height: 45px;                  /* Botões mais altos */
+    font-size: clamp(8px, 2vw, 12px);
+    padding: 0.1em 0.25em; /* ainda menores em celulares */
+    border-radius: 5px;
   }
 
   .container {
-    width: 98%;
-    padding: 15px;
-  }
-
-  .salaA {
-    width: 100%;
-    height: auto;
+    width: 95%;
+    padding: 10px;
   }
 }

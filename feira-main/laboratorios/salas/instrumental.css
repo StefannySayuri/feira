@@ -115,14 +115,16 @@ main {
 }
 
 /* ======== POSIÇÕES RELATIVAS ======== */
-.proj1 { top: 35%; left: 8%; transform: rotate(-90deg);}
-.proj2 { top: 65%; left: 8%; transform: rotate(-90deg);}
-.proj3 { top: 80%; left: 40%; }
-.proj4 { top: 80%; left: 65%; }
-.proj5 { top: 65%; left: 78%; transform: rotate(90deg);}
-.proj6 { top: 35%; left: 78%; transform: rotate(90deg);}
-.proj7 { top: 18.5%; left: 65%; }
-.proj8 { top: 18.5%; left: 40%; }
+.proj1 { top:36%; left: 5%; transform: rotate(-90deg);}
+.proj2 { top: 83%; left: 40%;}
+.proj3 { top: 83%; left: 65%; }
+.proj4 { top: 36%; left: 78%; transform: rotate(90deg); }
+.proj5 { top: 17%; left: 65%;}
+.proj6 { top: 17%; left: 40%;}
+.proj7 { top: 31%; left: 30%; transform: rotate(-90deg);}
+.proj8 { top: 54%; left: 30%; transform: rotate(-90deg);}
+.proj9 { top: 54%; left: 55%; transform: rotate(90deg);}
+.proj10 { top: 31%; left: 55%; transform: rotate(90deg);}
 
 /* ======== RESPONSIVIDADE ======== */
 @media (max-width: 768px) {
